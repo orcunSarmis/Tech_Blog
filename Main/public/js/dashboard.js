@@ -1,4 +1,4 @@
-const addButtonHandler - async (event) => {
+const addButtonHandler = async (event) => {
     document.location.replace('dashboard/newArticle');
 };
 
