@@ -28,3 +28,15 @@ const deleteButtonHandler = async (event) => {
         alert('Delete button did not have a data-id');
     }
 };
+
+document
+.querySelector('#btn-add')
+.addEventListener('click', addButtonHandler);
+
+document
+.querySelectorAll('.btn-update')
+.forEach(btn => btn.addEventListener('click', updateButtonHandler));
+
+document
+.querySelectorAll('.btn-delete')
+.forEach(btn => btn.addEventListener('click', deleteButtonHandler));
