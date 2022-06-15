@@ -19,6 +19,12 @@ const deleteButtonHandler = async (event) => {
             method: 'DELETE',
         });
 
-        
+        if (response.ok) {
+            document.location.replace('/dashboard');
+        } else {
+            alert('Failed to delete article');
+        }
+    } else {
+        alert('Delete button did not have a data-id');
     }
-}
+};
