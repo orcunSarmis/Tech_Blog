@@ -25,7 +25,7 @@ const sess = {
     },
     resave: false,
     saveUsaveUninitialized: true,
-    store: new Sequelize({ 
+    store: new SequelizeStore({ 
         db: sequelize
     })
 };
