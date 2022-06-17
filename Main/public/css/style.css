@@ -24,3 +24,10 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    background-color: var(--c-whitesmoke);
+    font-family: 'Poppins', sans-serif;
+    color: var(--c-ddslategray);
+    height: 100vh;
+}
