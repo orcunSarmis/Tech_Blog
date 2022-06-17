@@ -31,3 +31,17 @@ body {
     color: var(--c-ddslategray);
     height: 100vh;
 }
+
+main {
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+    width: 100vw;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Oswald', serif;
+    color: var(--c-marigold);
+}
