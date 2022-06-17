@@ -28,6 +28,10 @@
                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li> 
                    <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
                 <!-- Conditionally render login or logout links -->
+                {{#if logged_in}}
+                <li class="nav-item"><a class="nav-link" id="btn-signout" href="/" rel="noreferrer noopener">Sign Out</a></li>
+                {{else}}
+                
                 </ul>
         </nav>
     </header> 
