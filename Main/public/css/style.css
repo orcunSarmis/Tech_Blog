@@ -45,3 +45,15 @@ h5 {
     font-family: 'Oswald', serif;
     color: var(--c-marigold);
 }
+
+/* Media Queries */
+@media screen and (max-width: 281px) {
+    main {
+        padding-top: 8rem;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .tablewrap tr {display: table; width: 100%; }
+    .tablewrap td { display: table-row ;}
+}
