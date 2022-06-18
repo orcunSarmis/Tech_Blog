@@ -11,6 +11,22 @@ const signinFormHandler = async (event) => {
             neaders: { 'Content-Type': 'application/jsonm' },
         });
 
-        
+        if (response.ok) {
+            document.location.replace('/');
+        } else {
+            alert(response.statusText);
+        }
     }
-}
+};
+
+const signupButtonHandler = async () => {
+    document.location.replace('/signup');
+};
+
+document
+.querySelector('.signinForm')
+.addEventListener('submit', signinFormHandler);
+
+document
+.querySelector('#btn-signup')
+.addEventListener('submit', signupButtonHandler);
