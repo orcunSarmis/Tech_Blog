@@ -8,7 +8,7 @@ const signinFormHandler = async (event) => {
         const response = await fetch('/api/users/signin', {
             method:'POST',
             body: JSON.stringify({ username, password }),
-            neaders: { 'Content-Type': 'application/jsonm' },
+            headers: { 'Content-Type': 'application/jsonm' },
         });
 
         if (response.ok) {
