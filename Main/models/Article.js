@@ -29,7 +29,7 @@ Article.init(
             defaultValue: "",
             onUpdate: DataTypes.NOW,
         },
-        usre_id: {
+        user_id: {
             type: DataTypes.INTEGER,
             references: {
                 model: 'user',
