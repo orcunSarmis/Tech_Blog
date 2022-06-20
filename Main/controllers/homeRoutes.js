@@ -66,8 +66,36 @@ router.get('/articles/:id', async (req, res) => {
 
         const articleSingle = articleData.get({ palin: true });
 
-        res.render('')
-    } catch (err) {
-        
-    }
-})
+        res.render('viewArticle', { 
+            articleSingle, 
+            logged_in: req.session.logged_in 
+          });
+        } catch (err) {
+          console.log(err);
+          res.status(500).json(err);
+        }
+      });
+      
+      // ORGANIZATIONAL NOTE: Included this one withAuth route here to avoid adding commentRoutes.js file.
+      router.get('/updateComment/:id', withAuth, async (req, res) => {  
+        try {
+          const commentData = await Comment.findByPk(req.params.id, {
+            where: {
+              id: req.params.id,
+              user_id: req.session.user_id,
+            },
+          });
+      
+          const comment = commentData.get({ plain: true });
+      
+          res.render('updateComment', {
+            comment,
+            logged_in: req.session.logged_in,
+          });
+        } catch (err) {
+          console.log(err);
+          res.status(500).json(err);
+        }
+      });
+      
+      module.exports = router;
