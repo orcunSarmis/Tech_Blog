@@ -4,7 +4,7 @@
   
   ## Description 
   
-  Tech Blog is a CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts as well. 
+  Tech Blog is a CMS-style blog site, where developers can publish their blog posts and comment on other developers’ posts as well. It follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. 
 
   ## Table of Content
 
@@ -29,6 +29,22 @@
   ```
   npm i
   ```
+  To use this app, you will need a MySQL Workbench account, and to have the app installed on your machine.
+
+  You could find NPM links of NPM packages below.
+
+  [NPM Express.js Package](https://www.npmjs.com/package/express)
+  [NPM Handlebars.js Package](https://www.npmjs.com/package/handlebars)
+  [NPM Sequelize ORM Package](https://www.npmjs.com/package/sequelize)
+  [NPM Express-Session Package](https://www.npmjs.com/package/express-session)
+  [NPM Cookies Package](https://www.npmjs.com/package/cookies)
+  [NPM bcrypt Package](https://www.npmjs.com/package/bcrypt)
+  [NPM Router Package](https://www.npmjs.com/package/router)
+  [NPM dotenv Package](https://www.npmjs.com/package/dotenv)
+  [NPM mysql2 Package](https://www.npmjs.com/package/mysql2)
+  [NPM nodemon Package](https://www.npmjs.com/package/nodemon)
+  [NPM connect-session-sequelize Package](https://www.npmjs.com/package/connect-session-sequelize?activeTab=versions)
+  
   ## Tests
 
   To run tests, run the following command:
