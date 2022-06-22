@@ -16,8 +16,9 @@ router.get('/', withAuth, async (req, res) => {
 
         const article = articleData.map((article) => article.get({ palin: true }));
         
-        res.render('dasboard', {
-            articles,
+        res.render('newArticle', {
+            layout: 'dashboard',
+            article,
             logged_in: req.session.logged_in,
         });
     } catch (err) {
