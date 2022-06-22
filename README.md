@@ -19,6 +19,23 @@
 
   Clone my [GitHub](https://github.com/orcunSarmis/Tech_Blog) repo first and run the following command at the root of your project for creating the database
   
+  SignUp Page
+  
+  ![SignUp](https://user-images.githubusercontent.com/79064464/175036409-7df08f92-5753-4ed6-a448-d415a8208572.png)
+  
+  SignIn Page
+  
+  ![SignIn](https://user-images.githubusercontent.com/79064464/175036574-06b3ce86-aee6-45e8-922a-2b879c890f87.png)
+  
+  Dashboard 
+  
+  ![Adsh](https://user-images.githubusercontent.com/79064464/175036764-d59916dd-6c2a-407a-b03e-f3a9794b4a85.png)
+ 
+  Comments Page
+  
+  ![AComments](https://user-images.githubusercontent.com/79064464/175036964-15de3ec1-0d37-4679-bef6-20fba122b177.png)
+
+
   ## Contributing
 
   Ideas to improve this application are welcome, email me please.
@@ -33,17 +50,17 @@
 
   You could find NPM links of NPM packages below.
 
-  [NPM Express.js Package](https://www.npmjs.com/package/express)
-  [NPM Handlebars.js Package](https://www.npmjs.com/package/handlebars)
-  [NPM Sequelize ORM Package](https://www.npmjs.com/package/sequelize)
-  [NPM Express-Session Package](https://www.npmjs.com/package/express-session)
-  [NPM Cookies Package](https://www.npmjs.com/package/cookies)
-  [NPM bcrypt Package](https://www.npmjs.com/package/bcrypt)
-  [NPM Router Package](https://www.npmjs.com/package/router)
-  [NPM dotenv Package](https://www.npmjs.com/package/dotenv)
-  [NPM mysql2 Package](https://www.npmjs.com/package/mysql2)
-  [NPM nodemon Package](https://www.npmjs.com/package/nodemon)
-  [NPM connect-session-sequelize Package](https://www.npmjs.com/package/connect-session-sequelize?activeTab=versions)
+  * [NPM Express.js Package](https://www.npmjs.com/package/express)
+  * [NPM Handlebars.js Package](https://www.npmjs.com/package/handlebars)
+  * [NPM Sequelize ORM Package](https://www.npmjs.com/package/sequelize)
+  * [NPM Express-Session Package](https://www.npmjs.com/package/express-session)
+  * [NPM Cookies Package](https://www.npmjs.com/package/cookies)
+  * [NPM bcrypt Package](https://www.npmjs.com/package/bcrypt)
+  * [NPM Router Package](https://www.npmjs.com/package/router)
+  * [NPM dotenv Package](https://www.npmjs.com/package/dotenv)
+  * [NPM mysql2 Package](https://www.npmjs.com/package/mysql2)
+  * [NPM nodemon Package](https://www.npmjs.com/package/nodemon)
+  * [NPM connect-session-sequelize Package](https://www.npmjs.com/package/connect-session-sequelize?activeTab=versions)
   
   ## Tests
 
