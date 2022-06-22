@@ -18,8 +18,8 @@
                         <th scope="col" style="width: 25%;">Edit</th>
                     </tr>
                 </thead>
-        {{#if articles.lenght}}
-            {{#each articles as |article|}}
+        {{#if article.length}}
+            {{#each article as |article|}}
             <tbody>
                 <tr><a href="/article/{{article.id}}"></a>
                 <td scope="row">{{article.title}}</td>

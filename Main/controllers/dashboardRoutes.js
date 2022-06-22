@@ -14,7 +14,7 @@ router.get('/', withAuth, async (req, res) => {
             },
         });
 
-        const article = articleData.map((article) => article.get({ palin: true }));
+        const article = articleData.map((article) => article.get({ plain: true }));
         
         res.render('newArticle', {
             layout: 'dashboard',
