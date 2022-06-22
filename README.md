@@ -21,11 +21,11 @@
   
   SignUp Page
   
-  ![SignUp](https://user-images.githubusercontent.com/79064464/175036409-7df08f92-5753-4ed6-a448-d415a8208572.png)
+  ![SignUp](https://user-images.githubusercontent.com/79064464/175039142-7e44aed3-ef67-4fe8-a1a3-8422c758a701.png)
   
   SignIn Page
   
-  ![SignIn](https://user-images.githubusercontent.com/79064464/175036574-06b3ce86-aee6-45e8-922a-2b879c890f87.png)
+  ![SignIn](https://user-images.githubusercontent.com/79064464/175039231-efbf0e08-a8f0-4245-b425-4670a9eaf6b1.png)
   
   Dashboard 
   
