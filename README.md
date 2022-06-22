@@ -48,7 +48,7 @@
   ```
   To use this app, you will need a MySQL Workbench account, and to have the app installed on your machine.
 
-  You could find NPM links of NPM packages below.
+  You could find links of NPM packages below.
 
   * [NPM Express.js Package](https://www.npmjs.com/package/express)
   * [NPM Handlebars.js Package](https://www.npmjs.com/package/handlebars)
