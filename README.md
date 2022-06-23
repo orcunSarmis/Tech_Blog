@@ -33,7 +33,8 @@
  
   Comments Page
   
-  ![AComments](https://user-images.githubusercontent.com/79064464/175036964-15de3ec1-0d37-4679-bef6-20fba122b177.png)
+  
+  ![commentA](https://user-images.githubusercontent.com/79064464/175225461-1efc5943-c9f9-4f35-9d55-b6237e8da2f7.png)  
 
 
   ## Contributing
