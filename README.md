@@ -16,6 +16,8 @@
   * [Questions](#questions)
 
   ## Usage
+  
+  [Tech Blog](https://fast-ocean-21178.herokuapp.com/) app has been deployed on Heroku.
 
   Clone my [GitHub](https://github.com/orcunSarmis/Tech_Blog) repo first and run the following command at the root of your project for creating the database
   
