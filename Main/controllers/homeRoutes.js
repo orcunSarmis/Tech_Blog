@@ -65,7 +65,7 @@ router.get('/articles/:id', async (req, res) => {
             ],
         });
 
-        const articleSingle = articleData.get({ palin: true });
+        const articleSingle = articleData.get({ plain: true });
 
         res.render('viewArticle', { 
             articleSingle, 
