@@ -42,7 +42,7 @@
     <div class='col-12'>
       <div class='my-3' data-id='{{comment.id}}'>
         <p class='comment' id='content'>{{comment.content}}<br>
-          <small class='align-text-right'>- Posted by {{comment.user.username}} on {{format_date comment.created_at}}</small>
+          <small class='align-text-right'>- Posted by {{comment.user.username}} on {{ comment.created_at}}</small>
           <div class='edit-btns-comments'>
             <small class='btn btn-update' data-id='{{comment.id}}'>update</small> | 
             <small class='btn btn-delete' data-id='{{comment.id}}'>delete</small>
